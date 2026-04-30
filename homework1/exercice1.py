@@ -1,3 +1,6 @@
+#  функція яка розраховує кількість днів між заданою датою і поточною датою.
+
+
 from datetime import date, datetime, timedelta
 
 
