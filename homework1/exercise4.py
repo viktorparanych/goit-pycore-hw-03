@@ -23,7 +23,7 @@ def get_upcoming_birthdays(users):
             congratulation_date = birthday_this_year
 
 
-            day_of_week = congratulation_date.weekday()
+            day_of_week = congratulation_date.weekday()                                                                                                         
             if day_of_week == 5:
                 congratulation_date += timedelta(days=2)
             elif day_of_week == 6:

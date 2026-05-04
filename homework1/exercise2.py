@@ -2,7 +2,8 @@
 import random
 
 def get_numbers_ticket(min, max, quantity):
-    if min < 1 or max > 1000 or quantity < min or quantity > max:
+
+    if min < 1 or max > 1000 or quantity < 1 or quantity > (max - min + 1):
         return []
     
     result = random.sample(range(min, max + 1), quantity)
